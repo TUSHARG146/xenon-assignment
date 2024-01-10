@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Learn.Ai(Assignment) Website
+
+A Learn.Ai website created using Next.js, MongoDB, and Tailwind CSS.
+
+## Features
+
+1. **Login and Logout:**
+   - `/login` page allows users to log in.
+   - `/register` page allows new users to register.
+   - Authentication is implemented using JWT tokens.
+   - User data is stored in MongoDB.
+
+2. **Contact Us Page:**
+   - `/contact` page with a form for users to submit inquiries.
+   - Form submissions are stored in the database.
+
+3. **Responsive Design:**
+   - All pages are designed to be responsive on both desktop and mobile devices.
+   - Tailwind CSS is used for styling.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js installed
+- MongoDB database set up
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Start the server: `npm run dev`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Configuration
+- Configure MongoDB connection in `/config/db.js`.
+- Tailwind CSS styles can be customized in `/styles/tailwind.css`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `/pages`: Next.js pages for each route.
+- `/components`: React components organized by functionality.
+- `/styles`: Tailwind CSS styles.
+- `/public`: Static assets.
 
-## Learn More
+## Database Models
 
-To learn more about Next.js, take a look at the following resources:
+- `/models/user.js`: User schema for MongoDB.
+- `/models/contact.js`: Contact form submission schema.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Routes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `/routes/authRoutes.js`: Authentication routes.
+- `/routes/contactRoutes.js`: Contact form submission routes.
 
-## Deploy on Vercel
+## Hosting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is hosted on GitHub and can be accessed at [GitHub Repository](https://github.com/TUSHARG146/xenon-assignment).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Live Demo
+
+The live demo is hosted on Heroku and can be accessed at [Heroku Demo](https://xenon-assignment-dnkq.vercel.app/).
+
+## Screenshots 
+### login
+![image](https://github.com/TUSHARG146/xenon-assignment/assets/76150446/5f9cc849-67b9-45d6-92ce-55954116f933)
+
+### Register
+![image](https://github.com/TUSHARG146/xenon-assignment/assets/76150446/cddefd82-8d87-4943-9327-c2ee7e340108)
+
+### ContactUs
+![image](https://github.com/TUSHARG146/xenon-assignment/assets/76150446/fd29100c-7f38-4d7d-adb2-4c519cc283fe)
+![image](https://github.com/TUSHARG146/xenon-assignment/assets/76150446/972659a7-037b-49c0-baa6-e98f73abc21d)
+
+### Mongodb_userdata
+![image](https://github.com/TUSHARG146/xenon-assignment/assets/76150446/e6755df5-d8bc-4c6f-8e5b-4e7c01e95e0e)
+
+
+
+
+
+
