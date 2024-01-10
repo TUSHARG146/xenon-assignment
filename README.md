@@ -56,7 +56,7 @@ The project is hosted on GitHub and can be accessed at [GitHub Repository](https
 
 ## Live Demo
 
-The live demo is hosted on Heroku and can be accessed at [Heroku Demo](https://xenon-assignment-dnkq.vercel.app/).
+The live demo is hosted on Heroku and can be accessed at [Live Demo](https://xenon-assignment-dnkq.vercel.app/).
 
 ## Screenshots 
 ### login
